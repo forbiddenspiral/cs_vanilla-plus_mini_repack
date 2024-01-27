@@ -117,25 +117,29 @@
     <texture>ui_inGame2_left_side</texture>
   </left_background>
 
-  <clock_value x="3" y="721" width="108" height="47">        
+  <clock_value x="3" y="721" width="108" height="47">
 	<texture>ui_watch_back</texture>
     <text x="50" y="15" font="graffiti22" color="ui_7"/>
   </clock_value>
-	
+
   <belt_list_over x="358" y="94" width="58" height="58" dy="65" stretch="0">
 	<texture a="200">ui_closed_af_slot</texture>
   </belt_list_over>
-	
+
+
+	<!-- Decane start -->
+
+
   <dragdrop_bag x="705" y="140" width="308" height="590"
-          cell_width="41" cell_height="41" rows_num="14" cols_num="7"
-          unlimited="1" group_similar="1" always_show_scroll="1"/>
+          cell_width="32" cell_height="32" rows_num="18" cols_num="9"
+          unlimited="1" group_similar="1" always_show_scroll="0"/>
 
-  <dragdrop_belt x="363" y="97" width="45" height="320"
-          cell_width="45" cell_height="45" rows_num="5" cols_num="1"
-		  cell_sp_x="0" cell_sp_y="20" a="0"/>
+  <dragdrop_belt x="370" y="105" width="45" height="320"
+          cell_width="34" cell_height="34" rows_num="5" cols_num="1"
+		  cell_sp_x="0" cell_sp_y="31" a="0"/>
 
-  <dragdrop_outfit x="455" y="160" width="82" height="123"
-          cell_width="41" cell_height="41" rows_num="3" cols_num="2"
+  <dragdrop_outfit x="461" y="170" width="82" height="123"
+          cell_width="34" cell_height="34" rows_num="3" cols_num="2"
           custom_placement="0" a="0"/>
 
   <dragdrop_detector x="475" y="100" width="41" height="41"
@@ -143,32 +147,40 @@
           custom_placement="0" a="0"/>
 
   <dragdrop_pistol x="455" y="305" width="82" height="41"
-          cell_width="41" cell_height="41" rows_num="1" cols_num="2"
+          cell_width="37" cell_height="37" rows_num="1" cols_num="2"
           custom_placement="0" a="0"/>
 
-  <dragdrop_automatic x="560" y="100" width="82" height="246"
-          cell_width="41" cell_height="41" rows_num="6" cols_num="2"
+  <dragdrop_automatic x="560" y="145" width="82" height="275"
+          cell_width="34" cell_height="34" rows_num="6" cols_num="2"
           custom_placement="0" vertical_placement="1" a="0"/>
-  
-    <dragdrop_actor_trade x="705" y="144" width="308" height="180"
-          cell_width="41" cell_height="41" rows_num="4" cols_num="7"
-          unlimited="1" group_similar="1" always_show_scroll="1"/>
+
+
+	<!-- Decane separator -->
+
+
+  <dragdrop_actor_trade x="705" y="144" width="308" height="180"
+          cell_width="29" cell_height="30" rows_num="6" cols_num="10"
+          unlimited="1" group_similar="1" always_show_scroll="0"/>
 
   <dragdrop_actor_trade_bag x="705" y="365" width="308" height="363"
-          cell_width="41" cell_height="41" rows_num="8" cols_num="7"
-          unlimited="1" group_similar="1" always_show_scroll="1"/>
+          cell_width="32" cell_height="33" rows_num="11" cols_num="9"
+          unlimited="1" group_similar="1" always_show_scroll="0"/>
 
   <dragdrop_partner_trade x="10" y="144" width="308" height="180"
-            cell_width="41" cell_height="41" rows_num="4" cols_num="7"
-            unlimited="1" group_similar="1" always_show_scroll="1"/>
+            cell_width="29" cell_height="30" rows_num="6" cols_num="10"
+            unlimited="1" group_similar="1" always_show_scroll="0"/>
 
   <dragdrop_partner_bag x="10" y="365" width="308" height="363"
-            cell_width="41" cell_height="41" rows_num="8" cols_num="7"
-            unlimited="1" group_similar="1" always_show_scroll="1"/>
+            cell_width="32" cell_height="33" rows_num="11" cols_num="9"
+            unlimited="1" group_similar="1" always_show_scroll="0"/>
 
   <dragdrop_deadbody_bag x="10" y="140" width="308" height="590"
-            cell_width="41" cell_height="41" rows_num="14" cols_num="7"
-            unlimited="1" group_similar="1" always_show_scroll="1"/>		
+            cell_width="32" cell_height="32" rows_num="18" cols_num="9"
+            unlimited="1" group_similar="1" always_show_scroll="0"/>
+
+
+	<!-- Decane end -->
+
 
   <trade_button x="355" y="725" width="157" height="48">
     <window_name>trade_button</window_name>
@@ -288,7 +300,7 @@
 		<arrow_shadow x="48" y="34" width="9" height="97" heading="1" clockwise="1" begin_angle="0.75" end_angle="-0.8" ang_velocity="0.75">
 			<texture a="250">ui_hud2_rad01_arrow_shadow</texture>
 		</arrow_shadow>
-		
+
 		<progress_shape x="3" y="40" width="96" height="96" sector_count="36" clockwise="1" blend="0" begin_angle="0.75" end_angle="-0.75">
 			<front x="0" y="0" width="96" height="96">
 				<texture>ui_hud2_rad01_progress</texture>
@@ -296,7 +308,7 @@
 		</progress_shape>
 
 	</main_sensor>
-	
+
 	<fire_sensor x="33" y="132" width="94" height="67">
 		<hint_text delay="800">st_ui_fire_sensor</hint_text>
 		<icon x="7" y="41" width="20" height="20" magnitude="100">
@@ -314,7 +326,7 @@
 			</front>
 		</progress_shape-->
 	</fire_sensor>
-	
+
 	<radia_sensor x="240" y="132" width="94" height="67">
 		<hint_text delay="800">st_ui_radia_sensor</hint_text>
 		<icon x="68" y="41" width="20" height="20" magnitude="100">
@@ -368,7 +380,7 @@
 			</front>
 		</progress_shape-->
 	</psi_sensor>
-	
+
   </actor_state_info>
 
 </w>
