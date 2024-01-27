@@ -151,13 +151,13 @@
 		<text>The Clear Sky squad needs assault rifle ammo.</text>
 	</string>
 	<string id="st_recover_item_1_name">
-		<text>Return the PMm</text>
+		<text>Return the PM</text>
 	</string>
 	<string id="st_recover_item_1_text">
-		<text>While out on a night mission a Clear Sky squad ran into a boar lair. It’s probably too late to save the men, but the squad commander had a modified PMm. The pistol will be useful to the faction. Return it.</text>
+		<text>While out on a night mission a Clear Sky squad ran into a boar lair. It’s probably too late to save the men, but the squad commander had a modified Makarov PM. The pistol will be useful to the faction. Return it.</text>
 	</string>
 	<string id="st_recover_item_2_name">
-		<text>Return the AK74/2u</text>
+		<text>Return the AKS-74U</text>
 	</string>
 	<string id="st_recover_item_2_text">
 		<text>A few days ago renegades attacked a Clear Sky squad, just as they were buying a shipment of weapons from the military. Most shooters were captured by the renegades, but the best assault rifle was hidden. You need to recover it.</text>
