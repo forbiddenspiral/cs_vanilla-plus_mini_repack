@@ -1108,7 +1108,8 @@ function sim_squad_generic:refresh()
 	local new_spot
 
 	if self.player_id == "monster" then
-		new_spot = "alife_presentation_squad_monster"
+		self:hide()
+		return
 	else
 		local relation
 		local actor = db.actor
@@ -1135,7 +1136,8 @@ function sim_squad_generic:refresh()
 		if relation >= 1000 then
 			new_spot = "alife_presentation_squad_friend"
 		elseif relation <= -1000 then
-			new_spot = "alife_presentation_squad_enemy"
+			self:hide()
+			return
 		else
 			new_spot = "alife_presentation_squad_neutral"
 		end
@@ -1144,10 +1146,8 @@ function sim_squad_generic:refresh()
 	if self.current_action and self.current_action.name == "attack_point" then
 		if new_spot == "alife_presentation_squad_friend" then
 			new_spot = "alife_presentation_friend_squad_attack_point"
-		elseif new_spot == "alife_presentation_squad_neutral" then
+		else
 			new_spot = "alife_presentation_neutral_squad_attack_point"
-		else -- elseif new_spot == "alife_presentation_squad_enemy" then -- let's make mutant map spots change color as well
-			new_spot = "alife_presentation_enemy_squad_attack_point"
 		end
 	end
 
