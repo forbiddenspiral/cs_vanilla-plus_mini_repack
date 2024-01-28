@@ -216,7 +216,7 @@
 			ammo_5.45x39_fmj \n
 			wpn_hpsa \n
 			ammo_9x19_fmj \n
-			grenade_rgd5 \n
+			grenade_rgd5 = 1, prob=0.15 \n
 		</supplies>
 
 #include "gameplay\character_criticals_1.xml"
@@ -248,7 +248,7 @@
 			ammo_12x76_zhekan \n
 			wpn_beretta \n
 			ammo_9x19_fmj \n
-			grenade_rgd5 \n
+			grenade_rgd5 = 1, prob=0.15 \n
 		</supplies>
 
 #include "gameplay\character_criticals_1.xml"

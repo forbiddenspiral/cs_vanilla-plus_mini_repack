@@ -22,7 +22,7 @@
 			device_torch \n
 			wpn_ak74_up2 = 1, scope \n
 			ammo_5.45x39_ap \n
-			grenade_f1 = 3 \n
+			grenade_f1 = 3, prob=0.4 \n
 		</supplies>
 
 		<start_dialog>hello_dialog</start_dialog>
@@ -52,7 +52,7 @@
 			device_torch \n
 			wpn_ak74_up2 = 1, scope \n
 			ammo_5.45x39_ap \n
-			grenade_f1 = 3 \n
+			grenade_f1 = 3, prob=0.4 \n
 		</supplies>
 
 		<start_dialog>hello_dialog</start_dialog>
@@ -82,7 +82,7 @@
 			device_torch \n
 			wpn_lr300_up2 = 1, scope \n
 			ammo_5.45x39_ap \n
-			grenade_f1 = 3 \n
+			grenade_f1 = 3, prob=0.4 \n
 		</supplies>
 
 		<start_dialog>hello_dialog</start_dialog>
@@ -113,7 +113,7 @@
 			hand_radio \n
 			wpn_ak74_up2 = 1, scope, launcher \n
 			ammo_5.45x39_ap \n
-			grenade_f1 = 3 \n
+			grenade_f1 = 3, prob=0.4 \n
 		</supplies>
 
 		<mechanic_mode>1</mechanic_mode>
@@ -146,7 +146,7 @@
 			device_torch \n
 			wpn_ak74_up2 = 1, scope, launcher \n
 			ammo_5.45x39_ap \n
-			grenade_f1 = 3 \n
+			grenade_f1 = 3, prob=0.4 \n
 		</supplies>
 
 		<start_dialog>hello_dialog</start_dialog>
@@ -176,7 +176,7 @@
 			device_torch \n
 			wpn_ak74 \n
 			ammo_5.45x39_ap \n
-			grenade_f1 = 3 \n
+			grenade_f1 = 3, prob=0.1 \n
 		</supplies>
 
 #include "gameplay\character_criticals_1.xml"
@@ -204,7 +204,7 @@
 			device_torch \n
 			wpn_ak74 \n
 			ammo_5.45x39_ap \n
-			grenade_f1 = 3 \n
+			grenade_f1 = 3, prob=0.1 \n
 		</supplies>
 
 #include "gameplay\character_criticals_1.xml"
@@ -232,7 +232,7 @@
 			device_torch \n
 			wpn_val \n
 			ammo_9x39_ap \n
-			grenade_f1 = 3 \n
+			grenade_f1 = 3, prob=0.1 \n
 		</supplies>
 
 #include "gameplay\character_criticals_1.xml"
@@ -260,7 +260,7 @@
 			device_torch \n
 			wpn_ak74 \n
 			ammo_5.45x39_ap \n
-			grenade_f1 = 10 \n
+			grenade_f1 = 10, prob=0.1 \n
 		</supplies>
 
 #include "gameplay\character_criticals_1.xml"

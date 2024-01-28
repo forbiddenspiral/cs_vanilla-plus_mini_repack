@@ -189,7 +189,7 @@
 			ammo_5.56x45_ap \n
 			wpn_sig220 \n
 			ammo_11.43x23_fmj \n
-			grenade_f1 = 5 \n
+			grenade_f1 = 5, prob=0.1 \n
 #include "gameplay\character_items.xml"
 #include "gameplay\character_food.xml"
 #include "gameplay\character_drugs.xml"
@@ -317,7 +317,7 @@
 			wpn_spas12 \n
 			ammo_12x76_dart \n
 			ammo_9x19_fmj \n
-			grenade_f1 = 2 \n
+			grenade_f1 = 2, prob=0.1 \n
 #include "gameplay\character_items.xml"
 #include "gameplay\character_food.xml"
 #include "gameplay\character_drugs.xml"
@@ -354,7 +354,7 @@
 			ammo_5.56x45_ap \n
 			wpn_fort \n
 			ammo_9x18_fmj \n
-			grenade_f1 = 2 \n
+			grenade_f1 = 2, prob=0.1 \n
 		</supplies>
 
 #include "gameplay\character_criticals_1.xml"
@@ -385,7 +385,7 @@
 			ammo_5.45x39_ap \n
 			wpn_beretta \n
 			ammo_9x19_fmj \n
-			grenade_f1 = 2 \n
+			grenade_f1 = 2, prob=0.1 \n
 		</supplies>
 
 #include "gameplay\character_criticals_1.xml"
@@ -416,7 +416,7 @@
 			ammo_5.45x39_ap \n
 			wpn_hpsa \n
 			ammo_9x19_fmj \n
-			grenade_f1 = 2 \n
+			grenade_f1 = 2, prob=0.1 \n
 		</supplies>
 
 #include "gameplay\character_criticals_1.xml"

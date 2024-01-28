@@ -237,7 +237,7 @@
 			ammo_5.45x39_fmj \n
 			wpn_pm \n
 			ammo_9x18_fmj \n
-			grenade_rgd5 = 2 \n
+			grenade_rgd5 = 2, prob=0.15 \n
 #include "gameplay\character_food.xml"
 #include "gameplay\character_drugs.xml"
 		</supplies>
@@ -279,7 +279,7 @@
 			ammo_5.45x39_fmj \n
 			wpn_fort \n
 			ammo_9x18_fmj \n
-			grenade_rgd5 = 2 \n
+			grenade_rgd5 = 2, prob=0.15 \n
 #include "gameplay\character_food.xml"
 #include "gameplay\character_drugs.xml"
 		</supplies>
@@ -312,7 +312,7 @@
 			device_torch \n
 			wpn_fort \n
 			ammo_9x18_fmj \n
-			grenade_rgd5 = 2 \n
+			grenade_rgd5 = 2, prob=0.15 \n
 			flesh_up_ac_ak74u \n
 		</supplies>
 
