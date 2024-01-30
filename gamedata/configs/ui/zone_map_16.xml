@@ -7,7 +7,7 @@
 			<texture>ui_hud_map</texture>
 			
 			<dist_text x="116" y="4" width="38" height="14">
-				<text align="r" font="arial_14" color="ui_3"/>
+				<text align="r" font="arial_14" color="ui_alpha"/>
 			</dist_text>
 		</background>
 		
