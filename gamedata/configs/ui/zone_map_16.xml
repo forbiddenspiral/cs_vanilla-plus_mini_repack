@@ -22,7 +22,7 @@
 		<static_counter x="133" y="167" width="29" height="29" light_anim="ui_pda_contacts" la_cyclic="0" la_texture="0" la_text="1" la_alpha="1" stretch="1">
 			<texture>ui_hud_map_counter</texture>
 			<text_static x="7" y="7" width="12" height="14">
-				<text  align="c" font="graffiti19" color="ui_7"/>
+				<text  align="c" font="graffiti19" r="238" g="155" b="23" a="0"/>
 			</text_static>
 		</static_counter>
 	</minimap>
