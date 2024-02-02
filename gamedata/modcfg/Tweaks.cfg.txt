@@ -1,0 +1,19 @@
+  File: Tweaks.cfg
+
+This configuration is a simple extension to permit the 
+adjustment of certain game options not found in other 
+Modifier configuration files.
+
+Move the mouse over the fields and radio buttons to see 
+tips on using this configuration.
+
+Install Alife.ltx
+
+If you don't already have a copy of this file in your 
+gamedata subdirectory, you can add it with this option. 
+
+Alife.ltx Tweaks
+
+You can set the starting time, the starting date, and 
+the time you spend on one level before the game will 
+automatically save your progress.
