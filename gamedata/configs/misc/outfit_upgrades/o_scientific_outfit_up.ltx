@@ -39,7 +39,12 @@ shock_protection		= 0.032
 
 [up_sect_g_scientific_outfit]
 cost				= 2500
-nightvision_sect		= effector_nightvision_good
+value				= +30
+inv_weight			= 0.5
+strike_protection		= 0.02	;0.25
+wound_protection		= 0.02	;0.25
+explosion_protection		= 0.02	;0.25
+;hit_fraction_actor		= -0.05
 
 [up_sect_h_scientific_outfit]
 cost				= 5000
@@ -223,7 +228,7 @@ scheme_index		= 0, 6
 known			= 1
 effects			= up_gr_eg_scientific_outfit
 section			= up_sect_g_scientific_outfit
-property		= prop_night_vision
+property		= prop_damage
 
 precondition_functor	= inventory_upgrades.precondition_functor_a
 precondition_parameter	= a & b
@@ -234,9 +239,9 @@ effect_parameter	= something_here
 prereq_functor		= inventory_upgrades.prereq_functor_a
 prereq_tooltip_functor	= inventory_upgrades.prereq_tooltip_functor_a
 prereq_params		= money(1000), item(habar)
-name			= st_upg_upgrade_night_vision_battle
-description		= st_upg_upgrade_night_vision_battle_descr
-icon			= ui_am_upgrade_23
+name			= st_upg_slice_leather_battle
+description		= st_upg_slice_leather_battle_descr
+icon			= ui_am_upgrade_13
 
 [up_h_scientific_outfit]
 scheme_index		= 0, 7
