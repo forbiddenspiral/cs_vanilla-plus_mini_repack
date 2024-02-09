@@ -196,6 +196,10 @@ function npc_sound:play(npc_id, faction, point)
 
 	local snd_st = string.gsub(snd, "\\", "_")
 
+	if closecaption then
+		closecaption.cc_display_npcsnd(snd_st)
+	end
+
 	if self.group_snd then
 		self.can_play_group_sound = false
 	else
@@ -442,6 +446,10 @@ function actor_sound:play(_, faction, point)
 
 	self.can_play_sound = false
 
+	if closecaption then
+		closecaption.cc_display_sndpath(snd)
+	end
+
 	news_manager.send_sound(nil, faction, point, snd)
 
 	return true
@@ -584,6 +592,10 @@ function object_sound:play(obj_id, faction, point)
 
 	self.snd_obj = sound_object(snd)
 	self.snd_obj:play_at_pos(obj, obj:position(), 0, sound_object.s3d)
+
+	if closecaption then
+		closecaption.cc_display_sndpath(snd, obj)
+	end
 
 	self.can_play_sound = false
 
