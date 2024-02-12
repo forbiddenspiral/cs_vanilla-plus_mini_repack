@@ -60,6 +60,7 @@ function actor_binder:reinit()
 	actor:set_callback(callback.task_state, self.task_callback, self)
 	actor:set_callback(callback.take_item_from_box, self.take_item_from_box, self)
 --	actor:set_callback(callback.use_object, self.on_use_item, self) -- SRP
+	actor:set_callback(callback.use_object, self.use_inventory_item, self) -- Medicine mod
 end
 --------------------------------------------------------------------------------
 function actor_binder:net_spawn(se_abstract)
@@ -124,7 +125,7 @@ function actor_binder:net_destroy()
 	actor:set_callback(callback.trade_sell_buy_item, nil) -- SRP
 	actor:set_callback(callback.task_state, nil)
 	actor:set_callback(callback.take_item_from_box, nil)
---	actor:set_callback(callback.use_object, nil) -- SRP
+	actor:set_callback(callback.use_object, nil) -- SRP and Medicine Mod
 
 	db.del_actor()
 
@@ -136,6 +137,11 @@ function actor_binder:net_destroy()
 	xrs_dyn_music.stop_sound()
 	object_binder.net_destroy(self)
 	xr_s.on_actor_destroy()					--' Distemper 03.2008 --
+end
+--------------------------------------------------------------------------------
+-- Medicine Mod
+function actor_binder:use_inventory_item(obj)
+	use_item.CheckSection(obj:section())
 end
 --------------------------------------------------------------------------------
 function actor_binder:take_item_from_box(box, item)
@@ -315,6 +321,8 @@ function actor_binder:update(delta)
 	dunin_ammo_on_update()
 
 	local time = time_global()
+
+	xr_s.on_actor_update(delta) -- Medicine mod
 
 	if next_update_time < time then
 

@@ -63,6 +63,12 @@
 	<string id="st_item_used">
 		<text>Used</text>
 	</string>
+	<string id="st_item_using">
+		<text>Using</text>
+	</string>
+	<string id="st_item_already_using">
+		<text>Already using</text>
+	</string>
 	<string id="st_level">
 		<text>Level</text>
 	</string>
