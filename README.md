@@ -17,6 +17,7 @@ Used addons/mods/code/files plus source + modder (some of them are used only as 
 - CrommCruac: "Absolute Scopes Texture Pack v1.1" https://www.moddb.com/games/stalker-call-of-pripyat/addons/absolute-scopes-texture-pack-v1-1
 - Decane1: "SRP v1.1.4" https://www.moddb.com/mods/srp/downloads/srp-v114
 - forgottenspiral: "Mini-addon InGameSubs for SRP V1.1.4" https://www.moddb.com/games/stalker-clear-sky/addons/mini-addon-ingamesubs-for-srp-v114
+- mortany/VaIeroK: "OMF Editor" https://github.com/VaIeroK/Omf-Editor
 - MrSeyker: "PRP v1.2" https://www.moddb.com/mods/pripyat-reclamation-patch
 - NatVac: "silence.ogg for contact_1.ogg and contact_8.ogg and other things" SAVandT_1.1.
 - NatVac: "ZRP v1.07 R5 RC" https://www.metacognix.com/files/stlkrsoc/index.html
