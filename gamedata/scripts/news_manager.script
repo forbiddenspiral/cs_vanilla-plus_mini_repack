@@ -80,7 +80,7 @@ function send_tip(actor, news_id, timeout, sender, showtime, sender_id)
 
 	xr_sound.set_sound_play(0, "pda_tips") -- 0 = actor ID
 
-	local texture = "ui_iconsTotal_grouping"
+	local texture = "ui_iconsTotal_locations"
 
 	if sender ~= nil then
 		if type(sender) == "string" then

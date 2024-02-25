@@ -10,10 +10,10 @@
 		<text>Run to the nearest cover and hide to avoid the emission.</text>
 	</string>
 	<string id="hide_from_surge_text1">
-		<text>Attention! An emission is approaching!!! Approximate time till emission:</text>
+		<text>Emission imminent. Approximate time until emission:</text>
 	</string>
 	<string id="hide_from_surge_text2">
-		<text>Minutes.</text>
+		<text>minutes.</text>
 	</string>
 	<string id="sim_bring_item">
 		<text>Deliver items.</text>
