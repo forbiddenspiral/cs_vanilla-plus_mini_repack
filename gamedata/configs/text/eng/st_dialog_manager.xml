@@ -450,10 +450,10 @@
 		<text>Until recently, this used to be a quiet place. It was just us, the swamps, boars and flesh. Now it’s getting crowded, and it’s the wrong kind of crowd if you ask me. Good people have no business here. Now now, don’t take offense - you’re an exception.</text>
 	</string>
 	<string id="dm_about_22">
-		<text>We have only our leaders, Lebedev and Beanpolev, to thank for our predicament. Our camp is a former village, which got flooded back in Soviet times when the water reservoir was built. It’s not registered on any maps, so trying to find us without a guide is a really foolish idea.</text>
+		<text>We have only our leaders, Lebedev and Kalancha, to thank for our predicament. Our camp is a former village, which got flooded back in Soviet times when the water reservoir was built. It’s not registered on any maps, so trying to find us without a guide is a really foolish idea.</text>
 	</string>
 	<string id="dm_about_23">
-		<text>We came here to escape unwanted attention. Why? There were reasons. Lebedev or Beanpolev will tell you, if they feel like it. Here we are hidden even from visitors to the Swamps. If you want to get to the base, don’t go alone - find a guide. Much safer that way.</text>
+		<text>We came here to escape unwanted attention. Why? There were reasons. Lebedev or Kalancha will tell you, if they feel like it. Here we are hidden even from visitors to the Swamps. If you want to get to the base, don’t go alone - find a guide. Much safer that way.</text>
 	</string>
 	<string id="dm_about_24">
 		<text>This place is wet, cold, miserable and stinky as hell. What else do you want to know about? Wanna hear about getting pulled down to the bottom of the swamp by some beast? Or about sinking into quicksand in a minute flat?</text>
@@ -462,7 +462,7 @@
 		<text>This here’s a good place to hide. From whom? From anyone: bandits, the military, or anyone else who’s got their sights on you. Just jump into the reeds and you’re as good as gone. Of course, if you want to lay low, don’t do it literally. There’s too many treacherous places waiting to trap you, and plenty of nasty creatures around. Take one wrong step and it’s hasta la vista, baby!</text>
 	</string>
 	<string id="dm_about_26">
-		<text>You could roam these marshes for days on end and never get anywhere. It all looks the same: water, reeds and the occasional vegetation. I guess that’s why Lebedev and Beanpolev chose this place for a camp. Even the army with their choppers can’t spot us down here. That’s how we’ve managed to do our business freely, away from prying eyes.</text>
+		<text>You could roam these marshes for days on end and never get anywhere. It all looks the same: water, reeds and the occasional vegetation. I guess that’s why Lebedev and Kalancha chose this place for a camp. Even the army with their choppers can’t spot us down here. That’s how we’ve managed to do our business freely, away from prying eyes.</text>
 	</string>
 	<string id="dm_about_27">
 		<text>We’ve been hiding here so long that sometimes I feel like the whole world is one big swamp. I heard a story once that this used to be normal land, with villages and fields and everything. Then they started building a dam for the hydro power station, and ended up flooding the area. Either they miscalculated or just plain screwed up, but there was just too much water. Lots of folks weren’t even evacuated in time. So now it’s all a huge swamp.</text>
@@ -953,7 +953,7 @@
 		<text>We are all doing the same thing - scientific research. The Zone must be studied. Every day it finds a new way to amaze me. There are just as many wonderful things as there are terrible ones. Artifacts don’t even begin to describe it. Seasoned stalkers talk about a Monolith in the center of the Zone that can grant you any wish. I wish I could find it some day.</text>
 	</string>
 	<string id="dm_action_info_14">
-		<text>My instruments registered a very high concentration of energy, which means a great chance of artifacts or anomalies springing up here. I took the measurements and sent them to Beanpolev. Now I’m waiting for further orders.</text>
+		<text>My instruments registered a very high concentration of energy, which means a great chance of artifacts or anomalies springing up here. I took the measurements and sent them to Kalancha. Now I’m waiting for further orders.</text>
 	</string>
 	<string id="dm_action_info_15">
 		<text>Right now, nothing at all, but I have lots of responsibilities. We are scientists, technicians and soldiers all in one. Today we fight, tomorrow we go on a science expedition - that’s what it’s like.</text>
@@ -965,7 +965,7 @@
 		<text>I’m a long-standing member - one of the first in the clan. I’ve been studying the Zone at the Swamps from the very beginning. I take various measurements, plot graphs, maintain equipment and so on. I’ve shot a few monsters - for research purposes, of course. We’re having to take up our guns more and more these days.</text>
 	</string>
 	<string id="dm_action_info_18">
-		<text>Like everyone else here, I observe and collect data. I think Beanpolev and Lebedev have learned more about the Zone than the rest of us combined. They rarely tell us, common soldiers, about it though. We just worry about our immediate priorities, while they keep track of the bigger picture.</text>
+		<text>Like everyone else here, I observe and collect data. I think Kalancha and Lebedev have learned more about the Zone than the rest of us combined. They rarely tell us, common soldiers, about it though. We just worry about our immediate priorities, while they keep track of the bigger picture.</text>
 	</string>
 	<string id="dm_action_info_19">
 		<text>Waiting for news from our guys. They’re deep in the Swamps on a mission. In times like these, they might need our help.</text>
