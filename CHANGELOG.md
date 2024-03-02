@@ -1,1 +1,56 @@
 # Changelog
+
+v0.1 - 03/02/2024
+
+- Enabled no enemy map spots and showing only ally map spots.
+- Enabled no intro movies.
+- Enabled restoring pistol ironsights aiming.
+- Enabled smaller inventory grids.
+- Enabled no weapon sway on strafe.
+- Enabled real weapon names.
+- Enabled reasonable machine gun nest lethality.
+- Enabled reduced grenade spam.
+- Enabled user configuration patch.
+- Enabled reduced head bobbing.
+- Reduced max_item_mass (weight limit before fatigue) from 50kg to 30kg.
+- Reduced max_walk_weight (maximum weight for movement) from 60kg to 50kg.
+- Enabled stopping disk I/O icon from flashing at the lower right corner of the HUD.
+- Enabled no enemy minimap spots.
+- Hidden grenade indicator on HUD.
+- Muted NPC detection sounds on PDA.
+- Hidden NPC counter number on HUD.
+- Hidden ammo counter on HUD.
+- Hidden distance task counter on HUD.
+- Made crosshair smaller.
+- Removed some elements on minimap and HUD:
+  - Minimap:
+    - Direction of current objective.
+    - Red hit shoot mark.
+  - HUD:
+    - NPC counter indicator.
+- Disabled tagging NPCs through the binoculars.
+- Disabled sound notification of detected NPCs through the binoculars.
+- Tweaked SRP hide/restore HUD feature:
+  - Disabled feature by default.
+  - HUD instantly reappears in-game upon restoring, removing the need to return from the main menu.
+  - HUD instantly disappears in-game upon hiding, removing the need to return from the main menu.
+- Integrated SRP Modifier with basic functionalities:
+  - Added ability to enable/disable HUD from the main menu.
+  - Automated alife.ltx installation.
+  - Implemented basic alife.ltx tweaks.
+- Removed nightvision from suits with closed-cycle breathing system as in COP (only SEVA suit).
+- Enabled ZRP flashlight beam.
+- Fixed the scope (and binocular) views when running the game in 16:9 resolutions (included optional patch when running the game in DX10 and DX11).
+- Implemented mini-addon InGameSubs for SRP (added subs and PDA messages to the English sounds used in-game that don't have).
+- Removed 1s timeout effect to some PDA messages.
+- Implemented Medicine Mod for SRP compatibility and addressed audio issues:
+  - Adapted Medicine Mod for seamless integration with SRP.
+  - Fixed minor audio inconsistencies related to consumable items.
+  - Added long usage and sound effects for all consumable items.
+- Fixed incorrect weapon animation when using the exoskeleton with the Gauss Rifle.
+- Added optional LuaJIT library to improve performance.
+- Updated inventory icon to exoskeleton (icon from COP).
+- Allowed sprinting with SVD and RG-6 as in COP.
+- Changed icon and message on PDA when an emission occurs.
+- Improved inventory icons for some weapons (icons from PRP).
+- Fixed Professor name inconsistency in CS text files. Changes Professor Beanpolev's name to Professor Kalancha in Clear Sky English text files for consistency with Call of Pripyat.
