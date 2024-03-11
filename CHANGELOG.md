@@ -1,5 +1,13 @@
 # Changelog
 
+v0.3 - 03/11/2024
+
+- Enabled moving faster through water (from (WIP) SRP v1.1.5).
+- Improved inventory icon for medical supplies to look more like COP (from PRP).
+- Fixed medkit revive functionality for downed NPCs.
+  - Resolved an issue where medkits occasionally failed to revive downed NPCs.
+  - This bug primarily affected non-critical gameplay but is now fixed.
+
 v0.2 - 03/09/2024
 
 - Updated mini-addon InGameSubs for SRP v1.1.4 to v0.3.
