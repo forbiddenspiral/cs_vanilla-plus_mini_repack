@@ -156,11 +156,14 @@ end
 function Cwound_manager:eat_medkit()
 	local npc = self.npc
 	if npc:object("medkit") ~= nil then
-		npc:eat(npc:object("medkit"))
+		npc.health = 1
+		-- npc:eat(npc:object("medkit")) -- disabled in favor of Medicine mod
 	elseif npc:object("medkit_army") ~= nil then
-		npc:eat(npc:object("medkit_army"))
+		npc.health = 1
+		-- npc:eat(npc:object("medkit_army")) -- disabled in favor of Medicine mod
 	elseif npc:object("medkit_scientic") ~= nil then
-		npc:eat(npc:object("medkit_scientic"))
+		npc.health = 1
+		-- npc:eat(npc:object("medkit_scientic")) -- disabled in favor of Medicine mod
 	end
 end
 
