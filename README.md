@@ -18,7 +18,7 @@ Through this project, I've gained a newfound appreciation for certain vanilla fe
 **Credits and Thanks:**
 
 - My sincere gratitude to the following modders for creating these fantastic mods:
-  - ColR_iT/Translated by MisterBadGuy/Modified by PartyBoat/Modified again and adapted to multilanguage by forgottenspiral: "Medicine Mod" (one of my favorited Lua scripts)
+  - ColR_iT/Fix for downed NPCs by naxac and Anim_rouge/Translated by MisterBadGuy/Modified by PartyBoat/Modified again and adapted to multilanguage by forgottenspiral: "Medicine Mod" (one of my favorited Lua scripts)
     - <https://www.amk-team.ru/forum/topic/12674-medicina/>
     - <https://www.moddb.com/mods/stalker-animationssounds-for-consumables/downloads/medicine-rc-ver1-1>
   - CrommCruac: "Absolute Scopes Texture Pack v1.1" <https://www.moddb.com/games/stalker-call-of-pripyat/addons/absolute-scopes-texture-pack-v1-1>
@@ -39,4 +39,4 @@ Through this project, I've gained a newfound appreciation for certain vanilla fe
 
 **Known Bugs or Issues:**
 
-- Known Bug: Occasionally, giving medkits to downed NPCs might not revive them. This primarily affects non-critical gameplay and shouldn't hinder progress. I'm working on a fix if a solution can be found.
+- Fixed Bug: In previous versions, giving medkits to downed NPCs occasionally failed to revive them. This issue primarily affected non-critical gameplay and has now been resolved.
