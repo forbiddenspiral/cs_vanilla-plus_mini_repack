@@ -24,6 +24,7 @@ Through this project, I've gained a newfound appreciation for certain vanilla fe
   - CrommCruac: "Absolute Scopes Texture Pack v1.1" <https://www.moddb.com/games/stalker-call-of-pripyat/addons/absolute-scopes-texture-pack-v1-1>
   - Decane1: "SRP v1.1.4" <https://www.moddb.com/mods/srp/downloads/srp-v114>
   - forgottenspiral: "Mini-addon InGameSubs for SRP V1.1.4" <https://www.moddb.com/games/stalker-clear-sky/addons/mini-addon-ingamesubs-for-srp-v114>
+  - Helios: "Helios (Spawn Menu) Mod 1.3" <https://www.moddb.com/games/stalker-clear-sky/downloads/helios-spawn-menu-mod-1-3>
   - mortany/VaIeroK: "OMF Editor" <https://github.com/VaIeroK/Omf-Editor>
   - MrSeyker: "PRP v1.2" <https://www.moddb.com/mods/pripyat-reclamation-patch>
   - NatVac: "silence.ogg for contact_1.ogg and contact_8.ogg and other things" SAVandT_1.1.
