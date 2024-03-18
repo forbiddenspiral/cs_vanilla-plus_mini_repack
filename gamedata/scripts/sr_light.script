@@ -1,4 +1,12 @@
+-- nv 100922 AI can turn off lights if aware of enemy
+
+ai_smart_lights = false
+
 local zones = {}
+
+local indoor_levels = {
+	agroprom_underground = true
+}
 
 --------------------------------------------------------------------------------
 
@@ -48,12 +56,14 @@ function check_light(npc)
 		torch:enable_attachable_item(false)
 		return
 	end
---[[
-	if npc:best_enemy() ~= nil then
-		torch:enable_attachable_item(false)
-		return
+	
+	if ai_smart_lights and torch ~= nil then
+		if npc:best_enemy() ~= nil and indoor_levels[level.name()] ~= true then
+			torch:enable_attachable_item(false)
+			return
+		end
 	end
-]]
+
 	local scheme = db.storage[npc:id()].active_scheme
 	if scheme == "kamp" or scheme == "camper" then
 		torch:enable_attachable_item(false)

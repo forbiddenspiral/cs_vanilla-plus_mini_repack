@@ -1,0 +1,17 @@
+  File: Experimental_AI.cfg
+
+This configuration controls the installation and tweaking of 
+third-party AI enhancements and tweaks.  They have not been 
+fully tested.
+
+===============
+NPC Smart Flashlights
+
+You can allow NPCs to turn off their flashlights if they 
+perceive an enemy while underground or at night.  This might 
+actually improve framerate by reducing the load on the video 
+card's hardware transform and lighting support during 
+firefights, something useful in Pripyat at night.
+
+Note that NPCs can still leave their lights on while on alert, 
+if they don't see any enemies.
