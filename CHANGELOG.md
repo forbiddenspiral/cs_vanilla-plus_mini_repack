@@ -1,5 +1,15 @@
 # Changelog
 
+v0.4 - 03/18/2024
+
+- Restored more vanilla behavior for medical items and food. Changes:
+  - Using medical items no longer penalizes stamina.
+  - Food no longer restores stamina.
+- Made red hit marks invisible on HUD from mutants and NPCs (optional feature).
+- Added to SRP Modifier a new configuration (disabled by default):
+  - NPCs have the ability to turn off flashlights if they spot enemies.
+- Enabled the previously mentioned ability for NPCs.
+
 v0.3 - 03/11/2024
 
 - Enabled moving faster through water (from (WIP) SRP v1.1.5).
