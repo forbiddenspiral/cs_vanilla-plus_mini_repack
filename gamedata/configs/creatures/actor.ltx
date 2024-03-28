@@ -19,8 +19,8 @@ player_hud_section      = actor_hud
 
 terrain                                        = actor_terrain
 
-max_item_mass           = 30 ;50.0
-jump_speed              = 6.
+max_item_mass           = 35 ;50.0
+jump_speed              = 6.0
 crouch_coef             = 0.30 ;0.45
 climb_coef              = 0.7
 run_coef                = 2.0 ;2.1
@@ -176,11 +176,11 @@ alcohol_v				= -0.0003
 health_hit_part			= 1.0		;процент хита, уходящий на отнимание здоровья
 power_hit_part			= 0.1		;процент хита, уходящий на отнимание силы
 max_power_leak_speed	= 0.0		;накопление усталости (макс граница, до которой восстанавливается сила) в секунду игрового времени
-max_walk_weight			= 50
+max_walk_weight			= 60
 
 bleeding_v 				= 0.002	 ;0.0005	;потеря крови при номинальной ране в секунду
 
-wound_incarnation_v		= 0.0001 ;0.003     ;скорость заживления раны
+wound_incarnation_v		= 0.0003;0.0001 ;0.003     ;скорость заживления раны
 min_wound_size 			= 0.0256	;минимальный размер раны, после которого она считается зажившей
 
 ;--when actor in sleep
@@ -197,7 +197,7 @@ alcohol_v_sleep               = -0.0005
 bleeding_v_sleep              = 0.0
 wound_incarnation_v_sleep     = 0.0
 max_power_leak_speed_sleep    = -0.00001;
-health_restore_v              = 0.0003
+health_restore_v              = 0.0001;0.0003
 
 ;;;;;;;;
 ;actor_condition only
