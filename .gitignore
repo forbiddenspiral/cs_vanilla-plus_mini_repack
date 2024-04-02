@@ -4,7 +4,7 @@ Copy-CS.ps1
 CS_VANILLA_MINI_REPACK.code-workspace
 Dev-Notes.md
 Patch.ps1
-Release.ps1
+# Release.ps1
 Run-CS.ps1
 Unset-Read-Only.ps1
 
