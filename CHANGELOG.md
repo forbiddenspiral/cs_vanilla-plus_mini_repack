@@ -1,5 +1,15 @@
 # Changelog
 
+v0.5 - 04/01/2024
+
+- Weight and Movement:
+  - Increased weight limit before fatigue from 30kg to 35kg (matches vanilla COP and offers a more vanilla gameplay experience).
+  - Increased maximum weight for movement from 50kg to 60kg (aligns with vanilla values across all three STALKER games).
+- Player Character Properties (Aligned with COP):
+  - Matched the healing value to slightly restore health when injured using the value found in COP. This is for a more balanced approach across all three games.
+  - Adjusted bleeding value to the more balanced level found in COP.
+  - Wound healing rate when bleeding now aligns with the more balanced value from COP.
+
 v0.4 - 03/18/2024
 
 - Restored more vanilla behavior for medical items and food. Changes:
