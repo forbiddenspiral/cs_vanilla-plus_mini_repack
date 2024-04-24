@@ -59,8 +59,8 @@ function actor_binder:reinit()
 	actor:set_callback(callback.trade_sell_buy_item, self.on_trade, self)
 	actor:set_callback(callback.task_state, self.task_callback, self)
 	actor:set_callback(callback.take_item_from_box, self.take_item_from_box, self)
---	actor:set_callback(callback.use_object, self.on_use_item, self) -- SRP
-	actor:set_callback(callback.use_object, self.use_inventory_item, self) -- Medicine mod
+	--	actor:set_callback(callback.use_object, self.on_use_item, self) -- SRP
+	actor:set_callback(callback.use_object, self.use_inventory_item, self) -- SRP and Medicine mod
 end
 --------------------------------------------------------------------------------
 function actor_binder:net_spawn(se_abstract)
@@ -79,6 +79,11 @@ function actor_binder:net_spawn(se_abstract)
 	end
 
 	deferred_spawns = nil
+
+	if not has_alife_info("has_sleeping_bag") then
+		actor:give_info_portion("has_sleeping_bag")
+		_G.sim:create("sleepingbag", vector(), 0, 0, 0)
+	end
 
 	dunin_ammo_on_update = dunin_ammo.on_update -- SRP
 
@@ -139,9 +144,14 @@ function actor_binder:net_destroy()
 	xr_s.on_actor_destroy()					--' Distemper 03.2008 --
 end
 --------------------------------------------------------------------------------
--- Medicine Mod
+-- Medicine Mod and Sleeping Bag
 function actor_binder:use_inventory_item(obj)
-	use_item.CheckSection(obj:section())
+	if obj:section() == "sleepingbag" then
+		_G.sim:create("sleepingbag", vector(), 0, 0, 0)
+		level.start_stop_menu(atmsleep.UISleep(), true)
+	else
+		use_item.CheckSection(obj:section())		
+	end
 end
 --------------------------------------------------------------------------------
 function actor_binder:take_item_from_box(box, item)

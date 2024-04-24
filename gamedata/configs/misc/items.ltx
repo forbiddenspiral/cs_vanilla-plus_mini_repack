@@ -1,4 +1,42 @@
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;	ATM
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[sleepingbag]:identity_immunities
+GroupControlSection	= spawn_group
+discovery_dependency 	=
+$spawn 			= "food and drugs\sleepingbag"
+$prefetch 		= 32
+class			= II_ANTIR
+cform         		= skeleton
+visual        		= dynamics\devices\dev_rukzak\dev_rukzak.ogf
+description		= st_sleepingbag_descr
+
+inv_name		= st_sleepingbag
+inv_name_short		= st_sleepingbag
+inv_weight		= 1.2
+
+inv_grid_width		= 2
+inv_grid_height		= 2
+inv_grid_x		= 15
+inv_grid_y		= 27
+cost			= 5
+
+; eatable item
+eat_health 		= 0
+eat_satiety 		= 0
+eat_power 		= 0
+eat_radiation 		= 0
+wounds_heal_perc 	= 0
+eat_portions_num 	= 1
+
+; food item
+animation_slot		= 4
+
+;hud item
+hud 			= wpn_vodka_hud
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;	FOOD
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 [bread]:identity_immunities
