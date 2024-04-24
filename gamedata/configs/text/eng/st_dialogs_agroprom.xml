@@ -178,7 +178,7 @@
 		<text>Choose a weapon.</text>
 	</string>
 	<string id="agr_duty_tir_dialog_2111211">
-		<text>Makarov PM.</text>
+		<text>PMm.</text>
 	</string>
 	<string id="agr_duty_tir_dialog_21112111">
 		<text>Choose your target distance.</text>
@@ -199,19 +199,19 @@
 		<text>70 meters.</text>
 	</string>
 	<string id="agr_duty_tir_dialog_2111212">
-		<text>Beretta.</text>
+		<text>Martha.</text>
 	</string>
 	<string id="agr_duty_tir_dialog_2111213">
-		<text>AKS-74U.</text>
+		<text>Akm 74/2U.</text>
 	</string>
 	<string id="agr_duty_tir_dialog_2111214">
-		<text>MP5.</text>
+		<text>Viper 5.</text>
 	</string>
 	<string id="agr_duty_tir_dialog_2111215">
-		<text>AKS-74.</text>
+		<text>Akm 74/2.</text>
 	</string>
 	<string id="agr_duty_tir_dialog_2111216">
-		<text>LR-300.</text>
+		<text>TRs 301.</text>
 	</string>
 	<string id="agr_duty_tir_dialog_212">
 		<text>I want to take the scoring challenge.</text>
