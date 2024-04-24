@@ -131,15 +131,15 @@
 
 
   <dragdrop_bag x="705" y="140" width="308" height="590"
-          cell_width="32" cell_height="32" rows_num="18" cols_num="9"
+          cell_width="41" cell_height="41" rows_num="14" cols_num="7"
           unlimited="1" group_similar="1" always_show_scroll="0"/>
 
-  <dragdrop_belt x="370" y="105" width="45" height="320"
-          cell_width="34" cell_height="34" rows_num="5" cols_num="1"
+  <dragdrop_belt x="363" y="97" width="45" height="320"
+          cell_width="45" cell_height="45" rows_num="5" cols_num="1"
 		  cell_sp_x="0" cell_sp_y="31" a="0"/>
 
-  <dragdrop_outfit x="461" y="170" width="82" height="123"
-          cell_width="34" cell_height="34" rows_num="3" cols_num="2"
+  <dragdrop_outfit x="455" y="160" width="82" height="123"
+          cell_width="41" cell_height="41" rows_num="3" cols_num="2"
           custom_placement="0" a="0"/>
 
   <dragdrop_detector x="475" y="100" width="41" height="41"
@@ -147,11 +147,11 @@
           custom_placement="0" a="0"/>
 
   <dragdrop_pistol x="455" y="305" width="82" height="41"
-          cell_width="37" cell_height="37" rows_num="1" cols_num="2"
+          cell_width="41" cell_height="41" rows_num="1" cols_num="2"
           custom_placement="0" a="0"/>
 
-  <dragdrop_automatic x="560" y="145" width="82" height="275"
-          cell_width="34" cell_height="34" rows_num="6" cols_num="2"
+  <dragdrop_automatic x="560" y="100" width="82" height="246"
+          cell_width="41" cell_height="41" rows_num="6" cols_num="2"
           custom_placement="0" vertical_placement="1" a="0"/>
 
 
@@ -159,23 +159,23 @@
 
 
   <dragdrop_actor_trade x="705" y="144" width="308" height="180"
-          cell_width="29" cell_height="30" rows_num="6" cols_num="10"
+          cell_width="41" cell_height="41" rows_num="4" cols_num="7"
           unlimited="1" group_similar="1" always_show_scroll="0"/>
 
   <dragdrop_actor_trade_bag x="705" y="365" width="308" height="363"
-          cell_width="32" cell_height="33" rows_num="11" cols_num="9"
+          cell_width="41" cell_height="41" rows_num="8" cols_num="7"
           unlimited="1" group_similar="1" always_show_scroll="0"/>
 
   <dragdrop_partner_trade x="10" y="144" width="308" height="180"
-            cell_width="29" cell_height="30" rows_num="6" cols_num="10"
+            cell_width="41" cell_height="41" rows_num="4" cols_num="7"
             unlimited="1" group_similar="1" always_show_scroll="0"/>
 
   <dragdrop_partner_bag x="10" y="365" width="308" height="363"
-            cell_width="32" cell_height="33" rows_num="11" cols_num="9"
+            cell_width="41" cell_height="41" rows_num="8" cols_num="7"
             unlimited="1" group_similar="1" always_show_scroll="0"/>
 
   <dragdrop_deadbody_bag x="10" y="140" width="308" height="590"
-            cell_width="32" cell_height="32" rows_num="18" cols_num="9"
+            cell_width="41" cell_height="41" rows_num="14" cols_num="7"
             unlimited="1" group_similar="1" always_show_scroll="0"/>
 
 
