@@ -1,5 +1,13 @@
 # Changelog
 
+v0.6 - 04/25/2024
+
+- Gameplay Adjustments:
+  - Restored default grid cell size to match vanilla game.
+  - Reverted weapon names to vanilla.
+  - Added Sleeping Bag feature: Allows players to sleep anywhere in the Zone using this item.
+  - Increased vodka's radiation cure by ~40% based on user feedback.
+
 v0.5 - 04/01/2024
 
 - Weight and Movement:
