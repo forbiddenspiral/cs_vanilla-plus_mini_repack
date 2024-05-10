@@ -1089,9 +1089,6 @@ end
 
 function sim_squad_generic:refresh()
 
-	local actor = db.actor
-	local actor_faction = actor and actor:character_community() or sim:actor():community()
-	local is_mini_only = self.player_id ~= string.sub(actor_faction, 7) -- actor faction always named 'actor_*', so to match '*', get sub-string from index 7
 	local commander_id = self.commander_id
 
 	if commander_id == nil
@@ -1111,10 +1108,10 @@ function sim_squad_generic:refresh()
 	local new_spot
 
 	if self.player_id == "monster" then
-		self:hide()
-		return
+		new_spot = "alife_presentation_squad_monster"
 	else
 		local relation
+		local actor = db.actor
 		local commander = db.storage[commander_id]
 		commander = commander and commander.object
 
@@ -1130,6 +1127,7 @@ function sim_squad_generic:refresh()
 --				relation = 0 -- needs to be calculated
 			else
 				local squad_faction = self.player_id
+				local actor_faction = actor and actor:character_community() or sim:actor():community()
 				relation = relation_registry.community_goodwill(squad_faction, actor_faction) + relation_registry.community_relation(squad_faction, actor_faction)
 			end
 		end
@@ -1137,8 +1135,7 @@ function sim_squad_generic:refresh()
 		if relation >= 1000 then
 			new_spot = "alife_presentation_squad_friend"
 		elseif relation <= -1000 then
-			self:hide()
-			return
+			new_spot = "alife_presentation_squad_enemy"
 		else
 			new_spot = "alife_presentation_squad_neutral"
 		end
@@ -1147,26 +1144,24 @@ function sim_squad_generic:refresh()
 	if self.current_action and self.current_action.name == "attack_point" then
 		if new_spot == "alife_presentation_squad_friend" then
 			new_spot = "alife_presentation_friend_squad_attack_point"
-		else
+		elseif new_spot == "alife_presentation_squad_neutral" then
 			new_spot = "alife_presentation_neutral_squad_attack_point"
+		else -- elseif new_spot == "alife_presentation_squad_enemy" then -- let's make mutant map spots change color as well
+			new_spot = "alife_presentation_enemy_squad_attack_point"
 		end
-	end
-
-	if is_mini_only then
-		new_spot = new_spot.."_mini"
 	end
 
 	local orig_spot = self.spot_section
 
 	if orig_spot == new_spot then
-		if not is_mini_only and has_alife_info("ui_pda") then
+		if has_alife_info("ui_pda") then
 			map_change_spot_hint(commander_id, orig_spot, self:get_squad_props()) -- update info string iff PDA is open
 		end
 	else
 		if orig_spot ~= nil then
 			map_remove_object_spot(commander_id, orig_spot)
 		end
-		map_add_object_spot(commander_id, new_spot, is_mini_only and "" or self:get_squad_props())
+		map_add_object_spot(commander_id, new_spot, self:get_squad_props())
 		self.spot_section = new_spot
 	end
 end

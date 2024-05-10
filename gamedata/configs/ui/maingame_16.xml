@@ -167,7 +167,7 @@
     </progress_bar_stamina>
 
     <static_ammo x="66" y="80" width="60" height="28" stretch="1">
-			<text align="r" complex_mode="0" font="graffiti22" color="ui_alpha">Ammo</text>
+			<text align="r" complex_mode="0" font="graffiti22" color="ui_7">Ammo</text>
 		</static_ammo>
 
 		<static_wpn_icon x="17" y="74" width="25" height="30" stretch="1"/>
