@@ -1,5 +1,21 @@
 # Changelog
 
+v0.7 - 05/12/2024
+
+- Updated inventory icon for MP5: The inventory icon for the MP5 has been replaced with one that better matches the world model used by the OSRM mod.
+- Restored vanilla behavior: Several functionalities have been restored to align with the original game experience:
+  - Enemies are now displayed on the map and minimap.
+  - The grenade indicator has been restored to the HUD for better visual feedback.
+  - NPC detection sounds are audible again on the PDA.
+  - The HUD now displays the NPC counter, ammo counter, and distance task counter.
+  - The minimap shows the objective marker and red hit indicator.
+  - The HUD displays the NPC counter indicator.
+  - Binocular functionality has been restored, allowing you to tag NPCs and receive sound notifications upon detecting them.
+- Optional Feature Removal:
+  - "Red hit marks invisible on HUD" option removed: This optional feature has been removed to prioritize a more vanilla experience. Players will now see red hit markers on the HUD as intended.
+- Visual Tweaks:
+  - Hidden scrollbar in talk_16.xml: A minor XML change has been implemented to hide the scrollbar in the talk menu by default.
+
 v0.6 - 04/25/2024
 
 - Gameplay Adjustments:
