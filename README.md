@@ -18,12 +18,12 @@ Through this project, I've gained a newfound appreciation for certain vanilla fe
 **Credits and Thanks:**
 
 - My sincere gratitude to the following modders for creating these fantastic mods and tools:
-  - ColR_iT/Fix for downed NPCs by naxac and Anim_rouge/Translated by MisterBadGuy/Modified by PartyBoat/Modified again and adapted to multilanguage by forgottenspiral: "Medicine Mod" (one of my favorited Lua scripts)
+  - ColR_iT/Fix for downed NPCs by naxac and Anim_rouge/Translated by MisterBadGuy/Modified by PartyBoat/Modified again and adapted to multilanguage by forbiddenspiral: "Medicine Mod" (one of my favorited Lua scripts)
     - <https://www.amk-team.ru/forum/topic/12674-medicina/>
     - <https://www.moddb.com/mods/stalker-animationssounds-for-consumables/downloads/medicine-rc-ver1-1>
   - CrommCruac: "Absolute Scopes Texture Pack v1.1" <https://www.moddb.com/games/stalker-call-of-pripyat/addons/absolute-scopes-texture-pack-v1-1>
   - Decane1: "SRP v1.1.4" <https://www.moddb.com/mods/srp/downloads/srp-v114>
-  - forgottenspiral: "Mini-addon InGameSubs for SRP V1.1.4" <https://www.moddb.com/games/stalker-clear-sky/addons/mini-addon-ingamesubs-for-srp-v114>
+  - forbiddenspiral: "Mini-addon InGameSubs v0.3 for SRP v1.1.4 and Vanilla CS" <https://www.moddb.com/games/stalker-clear-sky/addons/mini-addon-ingamesubs-for-srp-and-vanilla>
   - Helios: "Helios (Spawn Menu) Mod 1.3" <https://www.moddb.com/games/stalker-clear-sky/downloads/helios-spawn-menu-mod-1-3>
   - mortany/VaIeroK: "OMF Editor" <https://github.com/VaIeroK/Omf-Editor>
   - MrSeyker: "PRP v1.2" <https://www.moddb.com/mods/pripyat-reclamation-patch>
