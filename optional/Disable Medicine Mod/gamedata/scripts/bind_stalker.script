@@ -59,8 +59,8 @@ function actor_binder:reinit()
 	actor:set_callback(callback.trade_sell_buy_item, self.on_trade, self)
 	actor:set_callback(callback.task_state, self.task_callback, self)
 	actor:set_callback(callback.take_item_from_box, self.take_item_from_box, self)
-	--	actor:set_callback(callback.use_object, self.on_use_item, self) -- SRP
-	actor:set_callback(callback.use_object, self.use_inventory_item, self) -- SRP and Medicine mod
+	actor:set_callback(callback.use_object, self.on_use_item, self) -- SRP
+	-- actor:set_callback(callback.use_object, self.use_inventory_item, self) -- SRP and Medicine mod
 end
 --------------------------------------------------------------------------------
 function actor_binder:net_spawn(se_abstract)
@@ -145,6 +145,7 @@ function actor_binder:net_destroy()
 end
 --------------------------------------------------------------------------------
 -- Medicine Mod and Sleeping Bag
+--[[
 function actor_binder:use_inventory_item(obj)
 	if obj:section() == "sleepingbag" then
 		_G.sim:create("sleepingbag", vector(), 0, 0, 0)
@@ -153,6 +154,7 @@ function actor_binder:use_inventory_item(obj)
 		use_item.CheckSection(obj:section())		
 	end
 end
+]]
 --------------------------------------------------------------------------------
 function actor_binder:take_item_from_box(box, item)
 	treasure_manager.take_item_from_box(box)
@@ -214,14 +216,12 @@ function actor_binder:on_item_drop(obj)
 	end
 end
 --------------------------------------------------------------------------------
---[[
 function actor_binder:on_use_item(obj)
 	if obj:section() == "sleepingbag" then
 		_G.sim:create("sleepingbag", vector(), 0, 0, 0)
 		level.start_stop_menu(atmsleep.UISleep(), true)
 	end
 end
-]]
 --------------------------------------------------------------------------------
 function actor_binder:task_callback(_task, _state)
 	local states = task -- global C++ enum
@@ -332,7 +332,7 @@ function actor_binder:update(delta)
 
 	local time = time_global()
 
-	xr_s.on_actor_update(delta) -- Medicine mod
+	-- xr_s.on_actor_update(delta) -- Medicine mod
 
 	if next_update_time < time then
 
