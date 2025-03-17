@@ -9,7 +9,9 @@ param (
   # Set the location where a copy of this repository and its files/folders are (there must be a gamedata folder).
   [string]$RepositoryPath = "$env:USERPROFILE\Documents\STALKER\MINI-REPACK-MODS\CS-MODDING-FOLDER\CS-VANILLA-MINI-REPACK",
   # Set the location where the mod is built and stored as a folder together with a compressed 7z file.
-  [string]$BuildPath = "$env:USERPROFILE\Documents\STALKER\MINI-REPACK-MODS\CS-MODDING-FOLDER\CS_MINI_REPACK_RELEASE"
+  [string]$BuildPath = "$env:USERPROFILE\Documents\STALKER\MINI-REPACK-MODS\CS-MODDING-FOLDER\CS_MINI_REPACK_RELEASE",
+  # Set the location where NeboStrelok1154's fixed normalmap files for CS/COP are stored (there must be a gamedata folder).
+  [string]$FixedNormalMapsModPath = "$env:USERPROFILE\Documents\STALKER\MINI-REPACK-MODS\CS-MODDING-FOLDER\OTHER\FIXED_NORMALMAPS"
 )
 
 # Script Functions #
@@ -125,6 +127,7 @@ function Build-Mod {
     $build_folder = "Mini-Repack-Mod_STALKER-CS-Edition_$build_version"
     $build_path = "$BuildPath"
     $repository_path = "$RepositoryPath"
+    $fixed_normalmaps_path = "$FixedNormalMapsModPath"
     $build_folder_path = "$build_path\$build_folder"
     $compressed_file_path = "$build_path\$build_folder"
 
@@ -203,6 +206,10 @@ function Build-Mod {
         $empty_folders | ForEach-Object { $path = $_; Remove-Item $_;
           Write-Message -Status $? -Verb "Deleted" -Message "empty folder in '$path'" }
       } while ($empty_folders.Count -gt 0)
+
+      # Copy the files from NeboStrelok1154's fixed normalmaps for CS/COP to the build folder.
+      Copy-Item -Path "$fixed_normalmaps_path\*" -Destination "$build_folder_path" -Recurse -Force
+      Write-Message -Status $? -Verb "Copied" -Message "files from NeboStrelok1154's fixed normalmaps to '$build_folder_path'"
 
       # Create the files or folders that optional features require.
 
